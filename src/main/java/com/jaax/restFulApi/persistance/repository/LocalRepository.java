@@ -12,4 +12,5 @@ public interface LocalRepository extends JpaRepository<Local, Long> {
     Optional<Local> findLocalByNameWithJPQL(String name);
 
     Optional<Local> findByName(String name);
+
 }
